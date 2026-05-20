@@ -180,8 +180,10 @@ body {
 }
 
 .product-card img {
-    height: 300px;
-    object-fit: cover;
+    height: 350px;
+    object-fit: contain;
+    background-color: white;
+    padding: 10px;
 }
 
 .product-price {
