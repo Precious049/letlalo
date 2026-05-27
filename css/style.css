@@ -207,6 +207,8 @@ body {
 .about-snippet p {
     margin-bottom: 30px;
     line-height: 1.8;
+}
+
 
 
 .mv-card {
@@ -227,9 +229,32 @@ body {
 .mv-card h3 {
     color: var(--primary);
     margin-bottom: 15px;
+}
 
+.value-card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    height: 100%;
+}
 
+.value-card:hover {
+    transform: translateY(-5px);
+}
 
+.value-icon {
+    font-size: 2.5rem;
+    color: var(--gold);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.value-card h5 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
 
 
 .contact-card {
@@ -294,7 +319,18 @@ body {
 .form-select:focus {
     border-color: var(--gold);
     box-shadow: 0 0 0 0.2rem rgba(218,165,32,0.25);
+}
 
+.rating-group {
+    padding: 10px 0;
+    line-height: 2;
+}
+
+.rating-group label {
+    margin-left: 8px;
+    color: var(--secondary);
+    cursor: pointer;
+}
 
 .success-message {
     background-color: var(--beige);
