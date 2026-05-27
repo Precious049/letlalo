@@ -34,7 +34,7 @@ body {
 
 .nav-link {
     color: var(--beige) !important;
-    margin: 0 10px;
+    margin: 0 8px;
     letter-spacing: 1px;
     transition: color 0.3s;
 }
@@ -180,10 +180,8 @@ body {
 }
 
 .product-card img {
-    height: 350px;
-    object-fit: contain;
-    background-color: white;
-    padding: 10px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .product-price {
@@ -209,53 +207,10 @@ body {
     line-height: 1.8;
 }
 
-
-
-.mv-card {
-    padding: 40px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    height: 100%;
+.founder-title {
+    color: var(--secondary);
+    font-style: italic;
 }
-
-.mv-icon {
-    font-size: 3rem;
-    color: var(--gold);
-    margin-bottom: 20px;
-    display: block;
-}
-
-.mv-card h3 {
-    color: var(--primary);
-    margin-bottom: 15px;
-}
-
-.value-card {
-    padding: 30px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-    height: 100%;
-}
-
-.value-card:hover {
-    transform: translateY(-5px);
-}
-
-.value-icon {
-    font-size: 2.5rem;
-    color: var(--gold);
-    margin-bottom: 15px;
-    display: block;
-}
-
-.value-card h5 {
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-
 
 .contact-card {
     padding: 40px 20px;
@@ -418,5 +373,9 @@ body {
 
     .section-title {
         font-size: 1.5rem;
+    }
+
+    .nav-link {
+        margin: 5px 0;
     }
 }
